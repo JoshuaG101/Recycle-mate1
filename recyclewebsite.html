@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barcode Scanner with Snapshot</title>
+<link rel="stylesheet" href="/recyclewebiste.css">
+</head>
+<body>
+<h1>Recycle Mate</h1>
+<p>Around 40% of Americans don't recycle properly. We're here to change that. Simply scan the barcode of any item, and we'll tell you exactly how to recycle or dispose of it, helping you make a positive impact on the planet.</p>
+<button class="learn-more-button" onclick="toggleContent()">Learn More</button>
+
+
+
+
+<div id="moreContent" class="more-content">
+  <p>By scanning the barcode of your item, you'll receive information on how to properly dispose of it, whether it's recyclable, compostable, or needs to go to the landfill. Join us in reducing waste and making a positive environmental impact!</p>
+</div>
+
+
+
+
+<div id="interactive" class="viewport">
+  <img id="cameraPlaceholder" src="https://www.svgrepo.com/show/116752/film-camera.svg" alt="Camera Placeholder" style="display: block; max-width: 30%; border-radius:20px"/>
+</div>
+
+
+
+
+<canvas id="canvas"></canvas>
+
+
+
+
+<button class="scan-button" id="scanButton">Scan your Item</button>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

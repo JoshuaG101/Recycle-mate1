@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+
+
+
+
+
+
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Poppins", sans-serif;
+}
+
+
+
+
+h1 {
+  position: absolute; /* Use absolute positioning */
+  top: 30px; /* Align to the top */
+  left: 50px; /* Align to the left */
+  margin: 5px; /* Remove margin for precise positioning */
+}
+
+
+
+
+p {
+ position: absolute; /* Use absolute positioning */
+ top: 80px; /* Set below h1, adjust value as needed */
+ left: 50px; /* Align to the left */
+ margin: 5px; /* Remove margin for precise positioning */
+ width: 550px; /* Set a specific width */
+ max-width: 80%; /* Optional: limit width relative to viewport */
+ white-space: wrap; /* Prevent wrapping of text */
+}
+
+
+
+
+
+
+
+
+.learn-more-button{
+ background-color: black;
+ color: white;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size: small;
+ position: absolute; /* Use absolute positioning */
+ top: 195px; /* Set below h1, adjust value as needed */
+ left: 50px; /* Align to the left */
+ margin: 10px; /* Remove margin for precise positioning */
+}
+
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #ffffff79;
+  background-image: url('/images/Siskiyou1\ \(1\).png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+  backdrop-filter: blur(0px);
+}
+
+
+
+
+
+
+
+
+#interactive {
+ position: relative;
+ width: 100%;
+ max-width: 400px;
+ height: 300px;
+ border: 4px solid #333;
+ border-radius: 20px;
+ overflow: hidden;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ }
+
+
+#result {
+ margin-top: 20px;
+ font-size: 18px;
+}
+
+
+
+
+#cameraPlaceholder{
+max-width: 80%;
+display: block;
+}
+
+
+canvas {
+ position: absolute;
+ top: -9999px;
+ left: -9999px;
+}
+
+
+
+
+
+
+
+
+.instructions {
+ margin-top: 200px;
+ padding: 200px;
+ background-color: #e70000; /* Light background */
+ border: 0px solid #ff0000; /* Soft border */
+ border-radius: 0px; /* Rounded corners */
+ box-shadow: 0 4px 8px rgb(255, 5, 5); /* Subtle shadow */
+ color: #000000; /* Dark text for readability */
+ font-size: 16px; /* Base font size */
+}
+
+
+
+
+
+
+
+
+.instructions h2 {
+ font-size: 24px; /* Larger font for headings */
+ margin-bottom: 10px; /* Spacing below headings */
+ color: #00a005; /* Accent color for headings */
+}
+
+
+
+
+
+
+
+
+.instructions p {
+ margin: 8px 0; /* Spacing between paragraphs */
+}
+
+
+
+
+.scan-button{
+  background-color: green;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: small;
+}
+.scan-button:hover{
+  background-color: darkgreen;
+}
+
+
+
+
+.more-content{
+  display: none;
+  margin-top: 10px;
+}
+
+
+#resultContainer {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+
+#resultContainer img {
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.instructions {
+   margin-top: 20px;
+   padding: 20px;
+   background-color: #f0f0f0;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   text-align: left;
+}
+
+
+.scan-button {
+   margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
